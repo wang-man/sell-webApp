@@ -1,0 +1,69 @@
+*{box-sizing: border-box;}
+*[hidefocus],input,textarea,a{outline:none; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;}
+fieldset,img,html,body,iframe{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+caption,th{font-weight:normal;font-style:normal;text-align:left;}
+em,strong{font-weight:bold;font-style:normal;}
+body,textarea,select,input,pre{font-family: "miui", "Helvetica Neue",Helvetica,STHeiTi,sans-serif;font-size:14px;}
+body{background:#f8f8f8;-webkit-text-size-adjust:none;line-height: 1;}
+a,button{cursor:pointer;}
+textarea{resize:none;overflow:auto;}
+pre{white-space:pre-wrap;}
+a{color:#efefef;text-decoration:none;}
+input{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-modify: read-write-plaintext-only;
+}
+html{width:100%;height: 100% ;overflow-x:hidden;font-size: 10px;}
+body{position:relative;text-align:left;width:100%;height:100%;-webkit-tap-highlight-color: rgba(0,0,0,0.05);-webkit-touch-callout:none;-webkit-user-select:none;-webkit-overflow-scrolling: touch; overflow: hidden;  font: 12px/12px a;}
+
+img{ vertical-align: bottom; }
+.cl:after{
+    clear:both;
+    content: '';
+    display: block;
+    height: 0;
+    overflow:hidden;
+    visibility: hidden;
+}
+
+/*手机端，设计稿640px。量出来多少，除以100，就是多少rem*/
+@media screen and (min-width:320px) and (max-width:359px) {
+  html {
+    font-size: 50px;
+  }
+}
+/*针对iphone4段屏手机*/
+@media screen and (min-width:320px) and (max-height:480px) {
+  html {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width:360px) and (max-width:374px) {
+  html {
+    font-size: 56.25px;
+  }
+}
+@media screen and (min-width:375px) and (max-width:383px) {
+  html {
+    font-size: 58.59375px;
+  }
+}
+@media screen and (min-width:384px) and (max-width:399px) {
+  html {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width:400px) and (max-width:411px) {
+  html {
+    font-size: 62.5px;
+  }
+}
+@media screen and (min-width:412px) and (max-width:431px) {
+  html {
+    font-size: 64.6875px;
+  }
+}
